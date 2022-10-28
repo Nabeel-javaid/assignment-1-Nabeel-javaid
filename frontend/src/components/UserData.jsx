@@ -1,8 +1,10 @@
 import React from "react";
 import rider from "../assets/rider.jpg";
 import Lottie from "react-lottie";
+import EditModal from './EditModal'
 import * as animationData from "../assets/guy.json";
 const UserData = ({ user }) => {
+  const [modal,setModal] = React.useState(false)
   user.number = "+92 305 7134189"
   const defaultOptions = {
     loop: true,
@@ -12,6 +14,11 @@ const UserData = ({ user }) => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  const modalHandler = () =>
+  {
+    setModal(!modal)
+  }
   console.log(user.name);
   return (
     <div className="h-[350px] w-full flex  my-10 p-10   ">
@@ -49,7 +56,7 @@ const UserData = ({ user }) => {
             <div className="bg-gray-300 w-3/4 h-9 rounded ml-2 mt-2 p-1 text-center text-gray-500">{user.number}</div>
           </div>
           <div className=" w-1/6 flex item-end justify-end">
-            <button className="p-3 bg-rose-500 rounded-lg  text-white font-bold ml-auto mt-auto w-full mb-3">
+            <button className="p-3 bg-rose-500 rounded-lg  text-white font-bold ml-auto mt-auto w-full mb-3" onClick={modalHandler}>
               Edit
             </button>
           </div>
@@ -58,6 +65,8 @@ const UserData = ({ user }) => {
       <div id="rider" className="w-1/2  solid  h-full">
         <Lottie options={defaultOptions} height={300} width={500} />
       </div>
+      {modal && <EditModal setModal = {setModal} modal = {modal}></EditModal>}
+      
     </div>
   );
 };
