@@ -23,7 +23,7 @@ jobs:
     - name: Install and build
     - uses: npm install && npm run build
 
-    name: Deploy 🚀
+    name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
         branch: gh-pages
