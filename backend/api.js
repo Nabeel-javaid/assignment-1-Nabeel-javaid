@@ -1,10 +1,10 @@
 //import mongoose
 
-const mongoose = require("mongoose")
-const express = require("express")
-const cors = require("cors")
+import mongoose from 'mongoose'
+import cors from 'cors'
+import express from 'express'
 const app = express()
-
+app.use(cors())
 //add express json middleware
 app.use(express.json())
 
@@ -82,7 +82,7 @@ app.get("/updateOrder/:id",async (req,res) => {
 //connect to mongoose
 const connect = () =>
 {
-    return mongoose.connect("mongodb://localhost:27017/scd",{ useNewUrlParser: true , useUnifiedTopology:true})
+    return mongoose.connect("mongodb+srv://admin:admin@cluster0.i7hhdbx.mongodb.net/?retryWrites=true&w=majority")
 }
 
 

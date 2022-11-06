@@ -12,9 +12,9 @@ const Orders = () => {
     
     React.useEffect(() => {
         // make a call to the backend every 2 minuts to fetch all orders
-        fetch('http://localhost:3002/create')
-        .then(res => res.json())
-        .then(data => console.log("Hello"))
+        // fetch('http://localhost:3002/create')
+        // .then(res => res.json())
+        // .then(data => console.log("Hello"))
               
         //  setInterval(() => {
             fetch('http://localhost:3002/orders')
