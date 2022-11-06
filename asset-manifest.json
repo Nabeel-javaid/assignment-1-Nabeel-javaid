@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/assignment-1-Nabeel-javaid/static/css/main.747f4e90.css",
+    "main.js": "/assignment-1-Nabeel-javaid/static/js/main.7937d73f.js",
+    "static/js/787.633816a4.chunk.js": "/assignment-1-Nabeel-javaid/static/js/787.633816a4.chunk.js",
+    "static/media/rider.jpg": "/assignment-1-Nabeel-javaid/static/media/rider.52cdc76c54817086dab9.jpg",
+    "static/media/logo.svg": "/assignment-1-Nabeel-javaid/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/assignment-1-Nabeel-javaid/index.html",
+    "main.747f4e90.css.map": "/assignment-1-Nabeel-javaid/static/css/main.747f4e90.css.map",
+    "main.7937d73f.js.map": "/assignment-1-Nabeel-javaid/static/js/main.7937d73f.js.map",
+    "787.633816a4.chunk.js.map": "/assignment-1-Nabeel-javaid/static/js/787.633816a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.747f4e90.css",
+    "static/js/main.7937d73f.js"
+  ]
+}
