@@ -17,7 +17,7 @@ const Nav = () => {
             <li className="px-4">Home</li>
           </a>
           <a href="#" className="cursor-pointer   p-3">
-            <li className="px-4">ehsan</li>
+            <li className="px-4">About</li>
           </a>
           <a href="#" className="cursor-pointer p-3">
             <li className="px-4">Contact</li>
