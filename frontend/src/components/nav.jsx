@@ -14,7 +14,7 @@ const Nav = () => {
       <div>
         <ul className="flex flex-row ml-6">
           <a href="#" className="cursor-pointer  p-3 rounded-lg ">
-            <li className="px-4">Home</li>
+            <li className="px-4">Hamza</li>
           </a>
           <a href="#" className="cursor-pointer   p-3">
             <li className="px-4">About</li>
